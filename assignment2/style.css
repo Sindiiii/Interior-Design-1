@@ -1,0 +1,129 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    width: 100;
+  }
+  ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+  }
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100px;
+  }
+  
+li a:hover {
+    background-color: rgba(128, 107, 63, 0.774);
+}
+#img {
+  opacity: 0.7;
+}
+
+#img:hover {
+  opacity: 1.0;
+}
+p{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #92b7944d;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.registerbtn {
+  background-color: #3c7841;
+  color: white;
+  padding: 11px 20px;
+  margin: 2px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+a {
+  color: dodgerblue;
+}
+
+footer{
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  padding-top: 40px;
+  color: #fff;
+  margin-left: -10px;
+    margin-right: -7px;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+
+@media (max-width: 768px) {
+  p{  
+    font-size: medium;
+    color: rgb(241, 241, 241);
+  }
+  #about p{
+    font-size: 24px;
+    margin-top: -30px
+  }
+  img{
+    margin-left: -191px;
+  }
+  #img img
+  {
+    padding-left: 31px;
+}
+form{
+  margin-left: 179px;
+    margin-right: 179px;
+}
+
+   
+}
